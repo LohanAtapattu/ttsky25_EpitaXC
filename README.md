@@ -16,7 +16,7 @@ There are various methods to remove motion artifacts. In this project, we expect
 
 In this project, we will design and tape out an application-specific integrated circuit (ASIC) to obtain the in-phase and quadrature (I/Q) components of the skin–electrode impedance signal, stimulated by a body signal, while using the EEG signal as the input. The ASIC consists of four fully differential operational amplifiers for implementing an active RC band-pass filter, along with four fully differential multipliers and an oscillator that generates a 1.2 kHz sinusoidal body stimulus signal.
 
-![Impedance mesuremnt ASIC](docs/Impedance_measurement_ASIC.png)
+![Impedance mesuremnt ASIC](docs/impedance_measurement_ASIC.png)
 
 ## Project Phases  
 

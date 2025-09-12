@@ -16,8 +16,7 @@ MACRO tt_um_diff
     END
   END rst_n
   PIN VDPWR
-    ANTENNAGATEAREA 524.000000 ;
-    ANTENNADIFFAREA 585.445312 ;
+    USE POWER ;
     PORT
       LAYER met4 ;
         RECT 1.000 5.000 3.000 220.760 ;

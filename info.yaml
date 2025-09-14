@@ -15,7 +15,7 @@ project:
   uses_3v3: false       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_diff"
+  top_module:  "tt_um_Fully_Diff_Opamp"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -55,12 +55,12 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "Vin+"
-  ua[1]: "Vin-"
-  ua[2]: "Vout+"
-  ua[3]: "Vout-"
-  ua[4]: "Rgm"
-  ua[5]: "Vcm"
+  ua[0]: "Vcm"
+  ua[1]: "Vin+"
+  ua[2]: "Vin-" 
+  ua[3]: "Rgm"
+  ua[4]: "Vout+"
+  ua[5]: "Vout-"
 
 # Do not change!
 yaml_version: 6

@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1757939384
+timestamp 1757943000
 << metal3 >>
 rect 13610 22515 13655 22520
 rect 13610 22480 13615 22515
@@ -111,7 +111,7 @@ rect 11317 0 11407 340
 rect 13249 0 13339 360
 rect 15181 0 15271 405
 use tt_um_Fully_Diff_Opamp  tt_um_Fully_Diff_Opamp_0 /foss/designs/sub
-timestamp 1757939384
+timestamp 1757943000
 transform 1 0 0 0 1 1
 box 105 189 15802 22476
 << labels >>

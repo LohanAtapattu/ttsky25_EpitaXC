@@ -113,22 +113,21 @@ Below are the test results obtained for the **Power Supply Rejection Ratio (PSRR
 | Specification                          | Min   | Typ   | Max   | Unit | Comments |
 |----------------------------------------|-------|-------|-------|------|----------|
 | **Overall Design**                     |       |       |       |      |          |
-| Supply voltage (Design Input)          | 1.7 V | 1.8 V | 1.9 V |      |          |
-| Common mode voltage (Design Input)     | 0.85 V| 0.9 V | 0.95 V|      |          |
-| Common mode voltage (Design Output)    | 0.85 V| 0.9 V | 0.95 V|      |          |
-| Temperature (Design Input)             | 20 °C |       | 50 °C |      |          |
+| Supply voltage                         | 1.7   | 1.8   | 1.9   |   V  |          |
+| Common mode voltage                    | 0.85  | 0.9   | 0.95  |   V  |          |
+| Common mode voltage                    | 0.85  | 0.9   | 0.95  |   V  |          |
 | **Fully Differential Operational Amplifier** |   |       |       |      |          |
-| PSRR                                   | 170 dB| 180 dB| 190 dB|      |          |
-| CMRR                                   | 230 dB| 250 dB| 270 dB|      |          |
+| PSRR                                   | 170   | 180   | 190.  |  dB  |          |
+| CMRR                                   | 230   | 250   | 270   |  dB  |          |
 | Phase margin                           | 50°   | 60°   | 70°   |      |          |
-| Gain bandwidth product                 | 800 kHz| 1 MHz| 1.2 MHz|     |          |
-| Open loop (low-freq) DC gain           | 80 dB | 100 dB| 120 dB|      |          |
-| Common mode voltage (Design Input)     | 0.85 V| 0.9 V | 0.95 V|      |          |
+| Gain bandwidth product                 | 0.800 | 1     | 1.2   |  MHz |          |
+| Open loop (low-freq) DC gain           | 80    | 100   | 120   |  dB  |          |
+| Common mode voltage (Design Input)     | 0.85  | 0.9   | 0.95  |  V   |          |
 | **Multiplier**                         |       |       |       |      |          |
-| Linear range                           | 50 mV |       | 200 mV|      |          |
-| Common mode voltage (Design Input)     | 0.85 V| 0.9 V | 0.95 V|      |          |
+| Linear range                           | 50    |       | 200   |  mV  |          |
+| Common mode voltage (Design Input)     | 0.85  | 0.9   | 0.95  |   V  |          |
 | **Oscillator**                         |       |       |       |      |          |
-| Frequency                              | 1 kHz | 1.2 kHz| 1.5 kHz|   |          |
+| Frequency                              | 1     | 1.2   | 1.5   | kHz  |          |
 
 ##### Fully Differential Amplifier  
 
@@ -141,6 +140,16 @@ For the **fully differential multiplier** design, we have employed a **fully dif
 ![Fully Differential Multiplier](docs/fully_differencial_multiplier.png)
 
 ##### Simulations  
+
+###### Post Layout Simulations
+
+CMRR of the Post layout simulation
+
+![Fully Differential Opamp](docs/ENHANCED_OPAMP_POST_LAYOUT_CMRR.png)
+
+PSRR of the Post layout simulation
+
+![Fully Differential Opamp](docs/PSSR-4.png)
 
 ###### Linearity  
 

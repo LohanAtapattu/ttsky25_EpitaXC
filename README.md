@@ -145,7 +145,7 @@ For the **fully differential multiplier** design, we have employed a **fully dif
 
 CMRR of the Post layout simulation
 
-![Fully Differential Opamp](docs/ENHANCED_OPAMP_POST_LAYOUT_CMRR.png)
+![Fully Differential Opamp](docs/ENTC21 G15 FYP Banner (Shared)-4.png)
 
 PSRR of the Post layout simulation
 
